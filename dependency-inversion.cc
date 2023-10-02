@@ -1,5 +1,6 @@
 /*
  * https://www.linkedin.com/pulse/first-5-principles-oop-c-what-so-solid-abdalrahman-hesham/
+ * https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
 
   * This principle states that a higher level-module should not depend on a
  lower-level module, but they both should depend on abstractions. It also states
