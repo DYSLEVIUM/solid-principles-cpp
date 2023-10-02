@@ -29,28 +29,29 @@
 // class Rectangle {
 // protected:
 //   std::uint16_t m_width, m_height;
-//
+
 // public:
 //   Rectangle(const std::uint16_t &width, const std::uint16_t &height)
 //       : m_width(width), m_height(height){};
-//
+
 //   virtual void setWidth(const std::uint16_t &width) { m_width = width; }
 //   virtual void setHeight(const std::uint16_t &height) { m_height = height; }
-//
+
 //   virtual std::uint16_t getWidth() const { return m_width; }
 //   virtual std::uint16_t getHeight() const { return m_height; }
-//
+
 //   virtual std::uint32_t calculateArea() const {
 //     return std::uint32_t(m_width) * m_height;
 //   }
 // };
-// // class Square : public Rectangle {
+
+// class Square : public Rectangle {
 // public:
 //   explicit Square(const std::uint16_t &side) : Rectangle(side, side){};
-//
+
 //   /*
-//    * (void) 'variable name' works around some compiler warnings. Some
-//    compilers
+//     * (void) 'variable name' works around some compiler warnings. Some
+//     compilers
 // will warn if you don't use a function parameter. In such a case, you might
 // have deliberately not used that parameter, not be able to change the
 // interface for some reason, but still want to shut up the warning. That (void)
@@ -61,9 +62,9 @@
 //   void setHeight(const std::uint16_t &height) override { (void)m_height; }
 //   void setLength(const std::uint16_t &side) { m_width = side, m_height =
 //   side; }
-//
-//   std::uint16_t getWidth() const override { return getLenght(); };
-//   std::uint16_t getHeight() const override { return getLenght(); };
+
+//   std::uint16_t getWidth() const override { return getLength(); };
+//   std::uint16_t getHeight() const override { return getLength(); };
 //   std::uint16_t getLength() const { return m_width; };
 // };
 
