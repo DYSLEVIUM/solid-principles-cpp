@@ -1,6 +1,7 @@
 /*
  * https://www.linkedin.com/pulse/first-5-principles-oop-c-what-so-solid-abdalrahman-hesham/
-
+ * https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+ 
  * This principle states that a client should never be forced to implement an
  interface that it doesn't use. In other words, if a class has a function public
  to the user, it must be callable.
